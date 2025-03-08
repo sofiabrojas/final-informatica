@@ -1,0 +1,16 @@
+/*boton de comenzar index*/
+
+.custom-btn {
+    background-color: rgba(147, 170, 195, 0.5); 
+    color: white; 
+    border: 2px solid white;
+    padding: 20px ; 
+    font-size: 1.2rem; 
+    border-radius: 10px; 
+    cursor: pointer; 
+  }
+  
+  .custom-btn:hover {
+    background-color: rgba(140, 155, 171, 0.8); 
+  }
+  
