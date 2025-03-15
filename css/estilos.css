@@ -7,7 +7,7 @@ h1 {
   font-style: normal;
 }
 /*Tipografia P*/
-p {
+p, li {
   font-family: 'Roboto', sans-serif;
   font-weight: 400; 
 }
@@ -86,6 +86,7 @@ h2, h3 {
 /*textoswhite*/
 .textoswhite {
   background-color: white;
+  padding: 2px;
 }
 /*section explotacion*/
 .sectexpl {
@@ -126,10 +127,10 @@ border: 3px solid #e0874398;}
 
 /*Formulario*/
 .formulario {
-  background-color: #e7ce9d; /* Marrón claro */
-  border: 2px solid #e08743; /* Marrón oscuro */
+  background-color: #e7ce9d; 
+  border: 2px solid #e08743; 
   border-radius: 10px;
-  color: #4d342e; /* Marrón oscuro para el texto */
+  color: #4d342e; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .enviar-btn {
@@ -149,12 +150,58 @@ border: 3px solid #e0874398;}
 }
 
 .texto-superpuesto {
-  background-color: rgba(195, 119, 65, 0.8); /* Marrón con transparencia */
-  color: white; /* Texto blanco para contraste */
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 20px; /* Espaciado interno */
-  max-width: 600px; /* Ancho máximo para el texto */
+  background-color: rgba(195, 119, 65, 0.8); 
+  color: white;
+  border-radius: 10px; 
+  padding: 20px; 
+  max-width: 600px; 
 }
+/*juego*/
+#cronometro {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+
+.jumbotron {
+  background-color: #e8e0d8; /* Fondo del jumbotron en tono marrón claro */
+  text-align: center; /* Centrar contenido dentro del jumbotron */
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#pregunta-container {
+  background-color: #d2c6bc; /* Fondo del contenedor de preguntas en tono marrón medio */
+}
+
+#opciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar las opciones horizontalmente */
+}
+
+.btn-group-vertical .btn {
+  margin-bottom: 10px;
+  width: 80%; /* Reducir el ancho de los botones */
+  background-color: #bfa595; /* Fondo de los botones en tono marrón */
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-group-vertical .btn:hover {
+  background-color: #a68c7c; /* Tono marrón más oscuro al pasar el ratón */
+}
+.triviatextil {
+  font-family: "Lobster", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+ 
+}
+
 
 /*VERSION MOBILE*/
   @media (max-width: 768px) { 
@@ -176,7 +223,7 @@ border: 3px solid #e0874398;}
       margin-right: 10px; 
     }
     .navbar-brand {
-      white-space: normal; /* Permite que el texto se divida en varias líneas */
-      text-align: center; /* Centra el texto si es necesario */
+      white-space: normal; 
+      text-align: center; 
     }
 }
