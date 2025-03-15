@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/estilos.css">
 </head>
     <title>Documental</title>
@@ -82,29 +83,32 @@
           
     </header>
     <main>
-   
-      <div class="container d-flex align-items-center justify-content-center m-3 mx-auto" style="background-color: rgba(213, 186, 131, 0.3); border: 2px solid #e0874398; border-radius: 10px; max-width: 900px; height: 90vh;">
-        <div class="row w-100">
-          <!-- Columna del video -->
-          <div class="col-lg-8 col-md-7 d-flex justify-content-center">
-            <iframe width="100%" height="535" src="https://www.youtube.com/embed/yIWVkzz1wnI?si=YHGduWGsKGiqnG3L"
+      <div class="container d-flex flex-column align-items-center justify-content-center m-3 mx-auto divdoc" >
+        <div class="row w-100"> 
+          <!-- Fila del video -->
+          <div class="col-12 d-flex justify-content-center mt-3">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/yIWVkzz1wnI?si=YHGduWGsKGiqnG3L" 
               title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-              encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
           </div>
-          
-          <!-- Columna del texto -->
-          <div class="col-lg-4 col-md-5 d-flex align-items-center">
-            <article class="p-3 mx-auto" style="max-width: 300px; background-color: rgba(255, 255, 255, 0.7);">
+      
+          <!-- Fila del texto -->
+          <div class="col-12 d-flex justify-content-center">
+            <article class="p-3 m-4 mx-auto">
               <h2>Tecnologías originarias</h2><br>
               <p>
                 La textilería consistió en un conjunto de técnicas que acompañaron a las sociedades en sus distintas acciones
-                 a lo largo del tiempo. Cumplió funciones tanto prácticas como simbólicas en la vida cotidiana de los antiguos
-                  pobladores andinos. Presentamos un recorrido por el conocimiento de estas técnicas, desde la utilización de 
-                  fibras vegetales, pasando por las fibras animales, hasta la incorporación de nuevas tecnologías introducidas 
-                  por los españoles.
+                a lo largo del tiempo. Cumplió funciones tanto prácticas como simbólicas en la vida cotidiana de los antiguos
+                pobladores andinos. Presentamos un recorrido por el conocimiento de estas técnicas, desde la utilización de 
+                fibras vegetales, pasando por las fibras animales, hasta la incorporación de nuevas tecnologías introducidas 
+                por los españoles.
               </p>
             </article>
           </div>
+        </div>
+      </div>
+      
           <div class="d-flex justify-content-center mt-5">
             <a href="index.html" class="btn btn-secondary">Ir a historia</a>
           </div>
@@ -119,14 +123,14 @@
               <!-- Enlaces -->
               <div class="col-md-12">
                   <nav>
-                      <ul class="nav justify-content-center">
-                          <li class="nav-item">
-                              <a class="nav-link" style="color: brown;" href="../complementarias/contacto.html">Contacto</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link " style="color: brown;" href="../complementarias/datos.html">Quién Soy</a>
-                          </li>
-                      </ul>
+                    <ul class="nav justify-content-center">
+                      <li class="nav-item">
+                          <a class="nav-link contacto-link"  href="../complementarias/contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link quien-soy-link" href="../complementarias/datos.html">Quién Soy</a>
+                      </li>
+                  </ul>
                   </nav>
               </div>
           </div>
